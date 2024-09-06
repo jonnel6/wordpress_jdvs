@@ -1,0 +1,29 @@
+I, [2024-09-06T01:52:24.985391 #19520]  INFO -- Kitchen: -----> Starting Test Kitchen (v3.7.0)
+E, [2024-09-06T01:52:24.987666 #19520] ERROR -- Kitchen: ------Exception-------
+E, [2024-09-06T01:52:24.987765 #19520] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2024-09-06T01:52:24.987872 #19520] ERROR -- Kitchen: Message: Kitchen YAML file C:/Users/USUARIO/Desktop/NEWMANN/TAREAJDVS/UnitTest/kitchen.yml does not exist.
+E, [2024-09-06T01:52:24.987960 #19520] ERROR -- Kitchen: ----------------------
+E, [2024-09-06T01:52:24.988028 #19520] ERROR -- Kitchen: ------Backtrace-------
+E, [2024-09-06T01:52:24.988093 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/lib/kitchen/loader/yaml.rb:65:in `read'
+E, [2024-09-06T01:52:24.988155 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/lib/kitchen/config.rb:153:in `data'
+E, [2024-09-06T01:52:24.988209 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/lib/kitchen/config.rb:131:in `suites'
+E, [2024-09-06T01:52:24.988266 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/lib/kitchen/config.rb:183:in `filter_instances'
+E, [2024-09-06T01:52:24.988321 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/lib/kitchen/config.rb:142:in `build_instances'
+E, [2024-09-06T01:52:24.988375 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/lib/kitchen/config.rb:116:in `instances'
+E, [2024-09-06T01:52:24.988470 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/lib/kitchen/command.rb:109:in `filtered_instances'
+E, [2024-09-06T01:52:24.988543 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/lib/kitchen/command.rb:139:in `parse_subcommand'
+E, [2024-09-06T01:52:24.988601 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/lib/kitchen/command/test.rb:39:in `block in call'
+E, [2024-09-06T01:52:24.988658 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/3.3.0/benchmark.rb:298:in `measure'
+E, [2024-09-06T01:52:24.988714 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/lib/kitchen/command/test.rb:37:in `call'
+E, [2024-09-06T01:52:24.988768 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/lib/kitchen/cli.rb:52:in `perform'
+E, [2024-09-06T01:52:24.988833 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/lib/kitchen/cli.rb:250:in `test'
+E, [2024-09-06T01:52:24.989244 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/thor-1.3.2/lib/thor/command.rb:28:in `run'
+E, [2024-09-06T01:52:24.989594 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/thor-1.3.2/lib/thor/invocation.rb:127:in `invoke_command'
+E, [2024-09-06T01:52:24.989952 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/thor-1.3.2/lib/thor.rb:538:in `dispatch'
+E, [2024-09-06T01:52:24.990314 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/thor-1.3.2/lib/thor/base.rb:584:in `start'
+E, [2024-09-06T01:52:24.990395 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/bin/kitchen:11:in `block in <top (required)>'
+E, [2024-09-06T01:52:24.990641 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/lib/kitchen/errors.rb:183:in `with_friendly_errors'
+E, [2024-09-06T01:52:24.991041 #19520] ERROR -- Kitchen: C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/test-kitchen-3.7.0/bin/kitchen:11:in `<top (required)>'
+E, [2024-09-06T01:52:24.991424 #19520] ERROR -- Kitchen: C:/Ruby33-x64/bin/kitchen:32:in `load'
+E, [2024-09-06T01:52:24.991695 #19520] ERROR -- Kitchen: C:/Ruby33-x64/bin/kitchen:32:in `<main>'
+E, [2024-09-06T01:52:24.991801 #19520] ERROR -- Kitchen: ----End Backtrace-----
